@@ -1,0 +1,80 @@
+body
+{
+    text-align:center;
+    background: white url('../pics/linen.png') repeat;
+}
+
+#container{
+    background: white url('../pics/border-img.png') repeat;
+    height: 310px;
+    width: 461px;
+    margin: 100px auto 0 auto;
+}
+
+canvas
+{
+    background: white;
+    margin: 5px 3px 5px 3px;
+}
+
+h1, #msg
+{
+    color: #444652;
+    font: normal'Merriweather', Georgia, "Times New Roman", Times, serif;
+}
+
+#msg {
+    font-size: 25px;
+}
+
+h1
+{
+    font-size: 52px;
+    margin-top: 50px;
+}
+
+input[type="button"] {
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.199219));
+    background-repeat: no-repeat no-repeat;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #D12525;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.199219);
+    border-right-color: rgba(0, 0, 0, 0.199219);
+    border-left-color: rgba(0, 0, 0, 0.199219);
+    border-image: initial;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.398438);
+    -webkit-box-shadow: rgba(255, 255, 255, 0.0976563) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.292969) 0px 1px 1px;
+    box-shadow: rgba(255, 255, 255, 0.0976563) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.292969) 0px 1px 1px;
+    padding-top: 11px;
+    padding-right: 19px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    text-shadow: rgba(0, 0, 0, 0.199219) 0px -1px 0px;
+    font-size: 13px;
+    line-height: normal;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: initial;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    font-weight: bold;
+}
